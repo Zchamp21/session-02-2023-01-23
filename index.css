@@ -1,6 +1,7 @@
 body {
     background-color: azure;
     color: navy;
+    margin: 0;
 }
 
 h1 {
@@ -15,10 +16,20 @@ div#divFlex {
 
 div#divGuests {
     background-color: red;
-    width: 30%;
+    width: 30vw;
+    height: auto;
+    /* text-align: center; */
 }
 
 div#divAlbums {
     background-color: orange;
-    width: 70%;
+    width: 70vw;
+    height: auto;
+    /* text-align: center; */
+}
+
+div h3 {
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
