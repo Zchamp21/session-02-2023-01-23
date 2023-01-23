@@ -6,3 +6,16 @@ body {
 h1 {
     text-align: center;
 }
+
+div#divFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+div#divGuests {
+    background-color: red;
+}
+
+div#divAlbums {
+    background-color: orange;
+}
