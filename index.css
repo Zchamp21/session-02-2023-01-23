@@ -10,12 +10,15 @@ h1 {
 div#divFlex {
     display: flex;
     justify-content: space-between;
+    width: 100vw;
 }
 
 div#divGuests {
     background-color: red;
+    width: 30%;
 }
 
 div#divAlbums {
     background-color: orange;
+    width: 70%;
 }
